@@ -45,7 +45,7 @@ header {
   text-align: left;
   color: #000000;
 }
-.logo3 {
+.page-footer__logo3 {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.38;
@@ -337,7 +337,7 @@ footer {
   display: flex;
   flex-direction: row;
 }
-.footerlinklogo {
+.page-footer {
   padding-top: 60px;
 }
 .section-team {
@@ -437,7 +437,7 @@ footer {
   list-style: none;
 }
 
-.social-link {
+.social-list__link {
   display: flex;
   width: 40px;
   height: 40px;
@@ -447,12 +447,12 @@ footer {
   fill: rgba(175, 177, 184, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover,
-.social-link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: var(--hover);
   fill: white;
 }
-.social-icon {
+.social-list__icon {
   height: 20px;
   width: 20px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -479,7 +479,7 @@ footer {
   display: flex;
   gap: 30px;
 }
-.logo-link {
+.customer__logo-link {
   display: flex;
   gap: 30px;
   border: 1px solid #afb1b8;
@@ -487,17 +487,17 @@ footer {
   fill: rgba(175, 177, 184, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-link:hover,
-.logo-link:focus {
+.customer__logo-link:hover,
+.customer__logo-link:focus {
   border-color: var(--hover);
   fill: var(--hover);
 }
-.icon-logo {
+.customer__icon-logo {
   margin: 17px 32px 14px 32px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customerh {
+.our-customer {
   margin-bottom: 50px;
 }
 /* Icony kolory svg */
