@@ -20,31 +20,43 @@
   <body>
     <header>
       <div class="container">
-        <div class="wrapper-header">
-          <a href="./index.html" class="logolink">
-            <span class="logo1">Web</span><span class="logo2">Studio</span></a
+        <div class="page-header">
+          <a href="./index.html" class="logolink page-header__logolink">
+            <span class="logo1 page-header__logo1">Web</span
+            ><span class="logo2 page-header__logo2">Studio</span></a
           >
           <nav class="navigation">
-            <ul class="navigation-list">
+            <ul class="menu-list">
               <li>
-                <a href="#" class="links navigation-list-present"> Agencja</a>
+                <a href="#" class="link menu-list__present"> Agencja</a>
               </li>
-              <li><a href="./portfolio.html" class="links"> Portfolio</a></li>
-              <li><a href="./kontakt.html" class="links"> Kontakt</a></li>
+              <li>
+                <a href="./portfolio.html" class="link menu-list__item">
+                  Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="./kontakt.html" class="link menu-list__item">
+                  Kontakt</a
+                >
+              </li>
             </ul>
           </nav>
           <ul class="navcontact">
             <li>
-              <a href="mailto:info@devstudio.com" class="contact">
-                <svg class="icon-envelope" width="16" height="12">
+              <a
+                href="mailto:info@devstudio.com"
+                class="contact navcontact__contact"
+              >
+                <svg class="navcontact__iconenvelope" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
             <li>
-              <a href="tel:+48111111111" class="contact">
-                <svg class="icon-smartphone" width="10" height="16">
+              <a href="tel:+48111111111" class="contact navcontact__contact">
+                <svg class="navcontact__iconsmartphone" width="10" height="16">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 tel: +48 111 111 111
@@ -57,7 +69,7 @@
     <main>
       <section class="section-background">
         <div class="container">
-          <h1 class="sectiontext">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <h1 class="section-background__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button type="button" class="button-home" data-modal-open="">
             Zamów usługę
           </button>
@@ -65,52 +77,72 @@
       </section>
       <section class="section">
         <div class="container">
-          <ul class="insider">
+          <ul class="our-advantage">
             <li>
-              <div class="contaeiner-icon-list">
-                <svg class="icon-antenna" width="70" height="70">
+              <div class="our-advantage__list">
+                <svg
+                  class="our-advantage__icon-advantage"
+                  width="70"
+                  height="70"
+                >
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h2 class="inside1">O FIRMIE</h2>
-              <p class="lorem">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
+              <h2 class="our-advantage__font">O FIRMIE</h2>
+              <p class="our-advantage__text">
+                our-advantage__text ipsum dolor sit amet, consectetur adipiscing
+                elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                malesuada
               </p>
             </li>
             <li>
-              <div class="contaeiner-icon-list">
-                <svg class="icon-clock1" width="70" height="70">
+              <div class="our-advantage__list">
+                <svg
+                  class="our-advantage__icon-advantage"
+                  width="70"
+                  height="70"
+                >
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h2 class="inside1">OFERTA</h2>
-              <p class="lorem">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
+              <h2 class="our-advantage__font">OFERTA</h2>
+              <p class="our-advantage__text">
+                our-advantage__text ipsum dolor sit amet, consectetur adipiscing
+                elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                malesuada
               </p>
             </li>
             <li>
-              <div class="contaeiner-icon-list">
-                <svg class="icon-diagram1" width="70" height="70">
+              <div class="our-advantage__list">
+                <svg
+                  class="our-advantage__icon-advantage"
+                  width="70"
+                  height="70"
+                >
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h2 class="inside1">PRACA</h2>
-              <p class="lorem">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
+              <h2 class="our-advantage__font">PRACA</h2>
+              <p class="our-advantage__text">
+                our-advantage__text ipsum dolor sit amet, consectetur adipiscing
+                elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                malesuada
               </p>
             </li>
             <li>
-              <div class="contaeiner-icon-list">
-                <svg class="icon-astronaut1" width="70" height="70">
+              <div class="our-advantage__list">
+                <svg
+                  class="our-advantage__icon-advantage"
+                  width="70"
+                  height="70"
+                >
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
-                <h2 class="inside1">ROZWÓJ</h2>
-                <p class="lorem">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                <h2 class="our-advantage__font">ROZWÓJ</h2>
+                <p class="our-advantage__text">
+                  our-advantage__text ipsum dolor sit amet, consectetur
+                  adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                  Interdum et malesuada
                 </p>
               </div>
             </li>
@@ -119,43 +151,43 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="inside2">Czym się zajmujemy</h2>
-          <ul class="picinside2">
-            <li class="aplication-image">
+          <h2 class="section-title">Czym się zajmujemy</h2>
+          <ul class="skills">
+            <li class="skills__image">
               <img
                 src="./images/box1.jpg"
                 alt="koleś pisze coś na kompie"
                 width="370"
                 height="294"
               />
-              <p class="text-aplication">APLIKACJE KOMPUTEROWE</p>
+              <p class="skills__text">APLIKACJE KOMPUTEROWE</p>
             </li>
-            <li class="aplication-image">
+            <li class="skills__image">
               <img
                 src="./images/box2.jpg"
                 alt="koleś z komórka"
                 width="370"
                 height="294"
               />
-              <p class="text-aplication">APLIKACJE MOBILNE</p>
+              <p class="skills__text">APLIKACJE MOBILNE</p>
             </li>
-            <li class="aplication-image">
+            <li class="skills__image">
               <img
                 src="./images/box3.jpg"
                 alt="koleś z tabletem"
                 width="370"
                 height="294"
               />
-              <p class="text-aplication">ROZWIĄZANIA GRAFICZNE</p>
+              <p class="skills__text">ROZWIĄZANIA GRAFICZNE</p>
             </li>
           </ul>
         </div>
       </section>
       <section class="section-team">
         <div class="container">
-          <h2 class="inside2">Nasz zespół</h2>
-          <ul class="ulinside">
-            <li class="item">
+          <h2 class="section-title">Nasz zespół</h2>
+          <ul class="team">
+            <li class="team__member">
               <img
                 src="./images/team1.jpg"
                 alt="team1"
@@ -163,8 +195,8 @@
                 height="260"
                 class="imagepic"
               />
-              <h3 class="John">John Doe</h3>
-              <p class="insidejohn">Product designer</p>
+              <h3 class="team__name">John Doe</h3>
+              <p class="team__position">Product designer</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a class="social-link" href="#">
@@ -197,7 +229,7 @@
               </ul>
             </li>
 
-            <li class="item">
+            <li class="team__member">
               <img
                 src="./images/team2.jpg"
                 alt="team2"
@@ -205,8 +237,8 @@
                 height="260"
                 class="imagepic"
               />
-              <h3 class="John">John Doe</h3>
-              <p class="insidejohn">Frontend Developer</p>
+              <h3 class="team__name">John Doe</h3>
+              <p class="team__position">Frontend Developer</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a class="social-link" href="#">
@@ -239,7 +271,7 @@
               </ul>
             </li>
 
-            <li class="item">
+            <li class="team__member">
               <img
                 src="./images/team3.jpg"
                 alt="team3"
@@ -247,8 +279,8 @@
                 height="260"
                 class="imagepic"
               />
-              <h3 class="John">John Doe</h3>
-              <p class="insidejohn">Marketing</p>
+              <h3 class="team__name">John Doe</h3>
+              <p class="team__position">Marketing</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a class="social-link" href="#">
@@ -281,7 +313,7 @@
               </ul>
             </li>
 
-            <li class="item">
+            <li class="team__member">
               <img
                 src="./images/team4.jpg"
                 alt="team4"
@@ -289,8 +321,8 @@
                 height="260"
                 class="imagepic"
               />
-              <h3 class="John">John Doe</h3>
-              <p class="insidejohn">UI Designer</p>
+              <h3 class="team__name">John Doe</h3>
+              <p class="team__position">UI Designer</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a class="social-link" href="#">
@@ -486,12 +518,13 @@
 
           <label for="textarea" class="label">
             <span class="name">Komentarz</span>
-          <textarea
-            class="textarea-input"
-            id="textarea"
-            name="areainput"
-            placeholder="Wprowadź tekst"
-          ></textarea></label>
+            <textarea
+              class="textarea-input"
+              id="textarea"
+              name="areainput"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
           <label class="legal-checkbox">
             <input type="checkbox" class="hide-checkbox" />
             <span class="checkboxspan">
