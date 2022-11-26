@@ -1,28 +1,6 @@
 
 /* /Stylizacja do index.html/ */
 
-.our-advantage__font {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: var(--brand-color);
-  padding-top: 30px;
-}
-.our-advantage {
-  list-style: none;
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 30px;
-}
-.our-advantage__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: var(--our-advantage__text);
-  padding-top: 10px;
-}
 
 
 
@@ -30,136 +8,29 @@
 
 /* zadanie domowe 3 */
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  flex-grow: 2;
-}
+
 
 
 /* dekoracja ikon */
 
-.our-advantage__list {
-  background-color: #f5f4fa;
-  height: 120px;
-  width: 270px;
-}
-.our-advantage__icon-advantage {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
-.social-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  margin-bottom: 30px;
-  margin-left: 32px;
-  margin-right: 32px;
-}
-.social-list2 {
-  display: flex;
-  gap: 10px;
-  padding-top: 20px;
-}
-.social-footer {
-  padding-left: 70px;
-  padding-top: 72px;
-}
-.social-footer__text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
 
-.social-list2__icon {
-  height: 20px;
-  width: 20px;
-  fill: var(--brand-background);
-}
-.social-item {
-  list-style: none;
-}
 
-.social-list__link {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  fill: rgba(175, 177, 184, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-list__link:hover,
-.social-list__link:focus {
-  background-color: var(--hover);
-  fill: white;
-}
-.social-list__icon {
-  height: 20px;
-  width: 20px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list2__link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list2__link:hover,
-.social-list2__link:focus {
-  background: var(--hover);
-}
+
+
+
+
+
+
 /* nasi klienci */
-.customer {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-}
-.customer__logo-link {
-  display: flex;
-  gap: 30px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  fill: rgba(175, 177, 184, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customer__logo-link:hover,
-.customer__logo-link:focus {
-  border-color: var(--hover);
-  fill: var(--hover);
-}
-.customer__icon-logo {
-  margin: 17px 32px 14px 32px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.our-customer {
-  margin-bottom: 50px;
-}
+
+
 /* Icony kolory svg */
 
-.social-list2__icon {
-  fill: rgba(255, 255, 255, 1);
-}
+
 
 /* portfolio overlay */
 
