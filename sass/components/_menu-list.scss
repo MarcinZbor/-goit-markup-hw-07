@@ -8,17 +8,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &__present {
+      position: relative;
+    }
+
+    &__present:after {
+      content: "";
+      position: absolute;
+      width: 53px;
+      height: 4px;
+      background-color: rgba(33, 150, 243, 1);
+      bottom: -33px;
+      left: 46px;
+    }
+
   }
   
-  .menu-list__present {
-    position: relative;
-  }
-  .menu-list__present:after {
-    content: "";
-    position: absolute;
-    width: 53px;
-    height: 4px;
-    background-color: rgba(33, 150, 243, 1);
-    bottom: -33px;
-    left: 46px;
-  }

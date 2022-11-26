@@ -12,22 +12,23 @@
     flex-direction: column;
     position: relative;
     padding: 40px;
-  }
-  .modal__btn {
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: 8px;
-    right: 8px;
-  }
-  .modal__svg {
-    width: 11px;
-    height: 11px;
-    fill: #000000;
+
+    &__btn  {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 8px;
+      right: 8px;
+    }
+    &__svg{
+      width: 11px;
+      height: 11px;
+      fill: #000000;
+    }
   }
   .modal__text {
     font-size: 20px;
