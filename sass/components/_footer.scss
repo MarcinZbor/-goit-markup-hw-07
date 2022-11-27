@@ -1,12 +1,9 @@
-.page-footer {
-    padding-top: 60px;
-
-    &__logo3 {
-      font-family: Raleway;
-      font-size: 26px;
-      line-height: 1.38;
-      letter-spacing: 0.03ems;
-      text-align: left;
-      color: #ffffff;
-    }
+footer {
+    background-color: #2f303a;
+    padding-bottom: 60px;
   }
+  .footerflex {
+    display: flex;
+    flex-direction: row;
+  }
+  

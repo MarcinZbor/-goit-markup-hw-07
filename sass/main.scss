@@ -1,23 +1,17 @@
 @import "./utils/variables";
 @import "./utils/container";
-@import "./utils/section";
-@import "./utils/sectionbground";
-@import "./utils/logolink";
-@import "./utils/mainbutton";
-@import "./utils/footer";
-@import "./utils/checkbox";
-@import "./utils/navigation";
 
-
-
-
-
-
-
+@import "./components/section";
+@import "./components/sectionbground";
+@import "./components/mainbutton";
+@import "./components/navigation";
+@import "./components/logolink";
+@import "./components/footer";
+@import "./components/checkbox";
 @import "./components/header";
 @import "./components/link";
 @import "./components/logo";
-@import "./components/footer";
+@import "./components/page-footer";
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/ishidden";
@@ -36,6 +30,11 @@
 @import "./components/social-footer";
 @import "./components/social-item";
 @import "./components/ourcustomer";
+@import "./components/benefits";
+@import "./components/buttons";
+@import "./components/description";
+@import "./components/overlay";
+@import "./components/portfolioitem";
 
 
 
@@ -43,8 +42,4 @@
 
 
 
-@import "./portfolio/buttons";
-@import "./portfolio/benefits";
-@import "./portfolio/description";
-@import "./portfolio/overlay";
-@import "./portfolio/portfolioitem";
+
